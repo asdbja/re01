@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>自我介绍</title>
+	</head>
+	<body>
+		<div style="background-color: #f1f1f1; text-align: center; padding: 2.5rem;">
+			<img src="https://inews.gtimg.com/newsapp_bt/0/3853353692/641" alt="动漫图像">
+			<p>paddi</p>
+		</div>
+		<div style="max-width: 43.75rem; margin: 1.875rem auto padding: 0.9375rem ;;">
+			<P>我叫paddi，喜欢懒羊羊</P>
+			<p>想向懒羊羊那样生活</p>
+		</div>
+		<div style="background-color: #f1f1f1; text-align: center; padding: 2.5rem;">
+			<p>我的网站</p>
+		</div>
+		<div style="background-color: #f1f1f1; text-align: center; padding: 2.5rem;">
+			<button id="dzs" onclick="dianzan()">0</button>
+			<script>
+				function dianzan(){
+				let dianzanbiaoqian = window.document.getElementById('dzs');
+				let dianzanshu = parseInt(dianzanbiaoqian.innerText);
+				let xinshuju = dianzanshu + 1;
+				dianzanbiaoqian.innerText = xinshuju;
+				return
+				}
+			</script>
+		</div>
+	</body>
+</html>
